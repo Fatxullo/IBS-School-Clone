@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IBS School Clone</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--navbar start-->
+    <nav>
+        <div class="container-nav">
+            <div class="logo"><a href="#"><img src="./img/download.png" alt="logo"></a></div>
+            <div class="menu-btn">
+                <i class="fas fa-bars" id="menu-btn" onclick="menuBtnOpen ()"></i>
+            </div>
+        </div>
+    </nav>
+    <!--menu start-->
+    <div class="menu-wrapper">
+        <div id="cover-box">
+
+        </div>
+        <div id="menu-container">
+            <div id="exit-btn"><i class="fas fa-times" id="-exit-btn" onclick="menuBtnClose ()"></i></div>
+            <div class="date-container">
+                <div class="lang-container">
+                    <div class="course-select"><a href="#">Выбор курса</a></div>
+                    <div class="lang"><a href="#"> Русский</a></div>
+                </div>
+
+                <ul class="courses">
+                    <li>
+                        <a href="#">Курсы</a>
+                    </li>
+                    <li>
+                        <a href="#">Блоги</a>
+                    </li>
+                    <li>
+                        <a href="#">Вебинары</a>
+                    </li>
+                </ul>
+
+                <ul class="info">
+                    <li>
+                        <a href="#">Тесты</a>
+                    </li>
+                    <li>
+                        <a href="#">Форумы</a>
+                    </li>
+                    <li>
+                        <a href="#">Карьера</a>
+                    </li>
+                    <li>
+                        <a href="#">Библиотека</a>
+                    </li>
+                </ul>
+
+                <div class="call-container">
+                    <div class="phone"><i class="fas fa-phone-alt"></i><a href="#">+998 (90) 038-10-11</a> </div>
+                    <div class="emaile"><i class="fas fa-envelope"></i><a href="#"> info@ibs-school.uz</a></div>
+                </div>
+
+                <div class="social-media">
+                    <a href="#"> <i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"> <i class="fab fa-telegram"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--menu end-->
+    <!--navbar end-->
+
+    <!--header start-->
+    <header>
+        <div class="container">
+            <div class="info-container">
+                <div class="first-text">Какие курсы вы ищите?</div>
+                <div class="second-text">Interactive</div>
+                <a href="#"><button>Наши курсы 😎</button></a>
+            </div>
+            <form action="#">
+                <div class="first-text">А ты курс хочешь?🤔</div>
+                <div class="second-text">IBS School</div>
+                <input type="text" placeholder="Name">
+                <input type="number" placeholder="Phone">
+                <input type="email" placeholder="Email (optional)">
+                <select name="courses">
+                    <option value="frontend">Frontend</option>
+                    <option value="back end">Back end</option>
+                    <option value="design">Design</option>
+                    <option value="english">English</option>
+                    <option value="arabik">Arabik</option>
+                    <option value="smm">SMM</option>
+                </select>
+                <button type="submit">Отправить ✌🏽</button>
+            </form>
+        </div>
+    </header>
+    <!--header end-->
+
+    <!--seystem start section 1-->
+    <div class="section-one">
+        <div class="big-container" data-aos="fade-right">
+            <div class="card">
+                <div class="icon-block">
+                    <img src="./icon/icon-online-courses.svg" alt="">
+                </div>
+                <div class="text">Первая инновационная академия в городе Ангрен</div>
+            </div>
+            <div class="card">
+                <div class="icon-block">
+                    <img src="./icon/icon-website.svg" alt="">
+                </div>
+                <div class="text">Онлайн и оффлайн курсы</div>
+            </div>
+            <div class="card">
+                <div class="icon-block">
+                    <img src="./icon/icon-blog.svg" alt="">
+                </div>
+                <div class="text">Профессиональные менторы</div>
+            </div>
+            <div class="card">
+                <div class="icon-block">
+                    <img src="./icon/icon-landing-pages.svg" alt="">
+                </div>
+                <div class="text">Удобное месторасположение</div>
+            </div>
+            <div class="card" data-aos="fade-right">
+                <div class="icon-block">
+                    <img src="./icon/icon-digital-downloads.svg" alt="">
+                </div>
+                <div class="text">Система LMS</div>
+            </div>
+            <div class="card" data-aos="fade-right">
+                <div class="icon-block">
+                    <img src="./icon/icon-memberships.svg" alt="">
+                </div>
+                <div class="text">Дружная атмосфера</div>
+            </div>
+        </div>
+    </div>
+    <!--seystem end section 1-->
+
+    <!--section two start-->
+    <div class="section-two">
+        <div class="big-container">
+            <div class="post-card">
+                <div class="text-block">
+                    <div class="header-text">Приветствие основателя IBS</div>
+                    <div class="text">Изучение современных профессий стремительно растёт. Мы уверенны, что интерактивные
+                        интенсивные курсы принесут больше удовольствия при использовании новаторского подхода. Начните
+                        новую жизнь с IBS и никогда не останавливайтесь. Получите образование, будь то у нас или у
+                        других, потому что получать образование - единнственное решение, которое приведёт вас к новым
+                        высотам</div>
+                </div>
+                <div class="photo-block">
+                    <img src="./img/founder.60415c6c.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--section two end-->
+
+    <!--section three start-->
+    <div class="section-three">
+        <div class="container">
+            <div class="header-text">Академия IBS</div>
+            <div class="second-text">IBS Академия - карьера успешного IT специалиста начинается здесь</div>
+            <iframe width="720" height="400" src="https://www.youtube.com/embed/15KuOwFsIsI"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+    <!--section three end-->
+
+    <!--section fourth  start-->
+    <div class="section-fourth">
+        <div class="container">
+
+            <div class="card-container">
+                <div class="text-block" data-aos="fade-left">
+                    <div class="header-text">Плати меньше, <span> получай знаний больше</span></div>
+                    <div class="text">
+                        Теперь можно в короткие сроки получить высшее образование. Опытные наставники за короткое время
+                        дадут вам качественные знания благодаря своим навыкам
+                    </div>
+                </div>
+                <lottie-player data-aos="fade-up" src="https://assets10.lottiefiles.com/packages/lf20_nqbgog78.json"
+                    background="transparent" speed="1" classname="react-reveal first-img" loop="" autoplay="true"
+                    style="width: 400px; height: 400px; animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 0ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-481917375141797-2;">
+                </lottie-player>
+            </div>
+
+            <div class="thr-card-container">
+                <lottie-player data-aos="fade-up" src="https://assets10.lottiefiles.com/packages/lf20_zsqxfplo.json"
+                    background="transparent" speed="1" classname="react-reveal second-img" loop="" autoplay="true"
+                    style="width: 300px; height: 300px; animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 0ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-481917375141797-2;">
+                </lottie-player>
+                <div class="text-block" data-aos="fade-right">
+                    <div class="header-text">Профессиональные курсы<span> за короткий срок </span></div>
+                    <div class="text">
+                        Пределом знаний не обязательно должны быть деньги. Так что учитесь на наших доступных курсах и
+                        преодолевайте границы
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="text-block" data-aos="fade-left">
+                    <div class="header-text"><span>24/7 техническая </span>поддержка получай знаний больше</div>
+                    <div class="text">
+                        Техническая поддержка студентов в любое время суток в течение недели. Наша техническая команда
+                        готова помочь вам 24 часа в сутки
+                    </div>
+                </div>
+                <lottie-player data-aos="fade-up" src="https://assets4.lottiefiles.com/packages/lf20_gtw1ect3.json"
+                    background="transparent" speed="1" autoplay="true" loop="" classname="react-reveal"
+                    style="width: 300px; height: 300px; animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 0ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-481917375141797-1;">
+                </lottie-player>
+            </div>
+        </div>
+    </div>
+    <!--section fourth  end-->
+
+    <!--section five start-->
+    <div class="section-five">
+        <div class="container">
+            <div class="first-text">Направления</div>
+            <div class="second-text">Основные направления обучающих программ</div>
+
+            <div class="card"  data-aos="fade-down">
+                <div class="logo-block"><img src="./icon/icon-megaphone.svg" alt=""></div>
+                <div class="info-block">
+                    <div class="name">Программирование</div>
+                    <div class="course">Html, CSS, Mysql, Android, Java, JavaScript</div>
+                </div>
+                <a href="#"><button>Выбрать 😁</button></a>
+            </div>
+
+            <div class="card"  data-aos="fade-down">
+                <div class="logo-block"><img src="./icon/icon-payments.svg" alt=""></div>
+                <div class="info-block">
+                    <div class="name">Бизнес</div>
+                    <div class="course">Marketing, SMM, Targeting, Контент-маркетинг</div>
+                </div>
+                <a href="#"><button>Выбрать 😁</button></a>
+            </div>
+
+            <div class="card"  data-aos="fade-down">
+                <div class="logo-block"><img src="./icon/icon-email.svg" alt=""></div>
+                <div class="info-block">
+                    <div class="name">Дизайн</div>
+                    <div class="course">UI и UX Дизайн</div>
+                </div>
+                <a href="#"><button>Выбрать 😁</button></a>
+            </div>
+
+            <div class="card"  data-aos="fade-down">
+                <div class="logo-block"><img
+                        src="./icon/podia_da9f3bb8-f764-45b9-b02c-29773d710db3_chat-bubble-icons.svg" alt=""></div>
+                <div class="info-block">
+                    <div class="name">Языки</div>
+                    <div class="course">Aнглийский, арабский</div>
+                </div>
+                <a href="#"><button>Выбрать 😁</button></a>
+            </div>
+
+        </div>
+    </div>
+    <!--section five end-->
+
+    <!--section six start-->
+    <div class="section-six">
+        <div class="first-text">Наша команда</div>
+        <div class="second-text">Настоящие профессионалы с большим теоретическим и практическим опытом</div>
+        <div class="card-container">
+            <div class="nex-icon"><i class="fas fa-hand-point-left"></i></div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Hi</h1>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Hi Bro</h1>
+                        
+                    </div>
+                </div>
+            </div>
+    
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Hello</h1>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="nnn"><i class="fas fa-hand-point-right"></i></div>
+        </div>
+    </div>
+    <!--section six end-->
+
+    <!--footer start-->
+    <footer>
+        <div class="container">
+        <div class="header-text">Контакты</div>
+            <div class="contact-container">
+
+                <div class="contact">
+                    <div class="location">
+                        <div class="name">Адрес</div>
+                        <div class="address">город Ангрен, Хулкар 1</div>
+                    </div>
+                    <div class="graphic">
+                        <div class="name">График работы</div>
+                        <div class="grap">Понедельник-Воскресенье 09:00 - 21:00</div>
+                    </div>
+                    <div class="phone">
+                        <div class="name">Телефон</div>
+                        <div class="number"><a href="#">+998 (90) 038-10-11</a></div>
+                    </div>
+                    <div class="email">
+                        <div class="name">Эл. адрес</div>
+                        <div class="ema"><a href="#">info@ibs-school.uz</a></div>
+                    </div>
+                    <div class="social-media">
+                        <a href="#"> <i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"> <i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10962.169151705632!2d70.06750283890916!3d41.02002875058709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1623913306129!5m2!1sru!2s" width="550" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!--footer end-->
+
+
+
+    <!--script link-->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>
